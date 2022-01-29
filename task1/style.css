@@ -1,0 +1,669 @@
+@import url('https://fonts.googleapis.com/css2?family=Spline+Sans:wght@300&display=swap');
+ *{
+    font-family: 'Spline Sans', sans-serif !important;
+ }
+.contain {
+    margin: 10vh 5vw 0px 5vw;
+    background-color: rgb(255, 255, 255);
+}
+
+.menubar {
+    display: flex;
+    height: 60px;
+    color: bisque;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    justify-content: space-around;
+    padding-top: 50px;
+}
+
+.logo {
+    margin: 5px;
+    font-size: 50px;
+    letter-spacing: 1px;
+    color: rgb(34, 59, 80);
+    cursor: pointer;
+}
+
+.menus{
+    list-style: none;
+    display: inline-flex;
+    padding-left: 300px;
+}
+
+.menus>li {
+    padding-right: 20px;
+}
+
+.menus>li>a {
+    text-decoration: none;
+    color: rgb(34, 59, 80);
+    font-size: 25px;
+    font-weight: bolder;
+    letter-spacing: 1px;
+}
+
+.menus>li>a:hover{
+    color: black;
+}
+
+.container {
+    width: 100%;
+    height: 800px;
+    background-image: url("https://images.ctfassets.net/hrltx12pl8hq/4f6DfV5DbqaQUSw0uo0mWi/6fbcf889bdef65c5b92ffee86b13fc44/shutterstock_376532611.jpg?fit=fill&w=800&h=300");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #bdbaad;
+}
+
+.banner {
+    padding-left: 180px;
+    padding-top: 160px;
+    color: currentColor;
+}
+
+.bannerhead {
+    margin-bottom: 0%;
+    font-size: 80px;
+    font-weight: lighter;
+    word-spacing: 5px;
+    color: rgb(10, 53, 53);
+}
+
+.bannerbody {
+    color:rgb(0, 0, 0);
+    word-spacing: 3px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.banner>.b1 {
+    background-color: rgb(10, 53, 53);
+    color: rgb(255, 255, 255);
+    letter-spacing: 1px;
+    font-size: 15px;
+    border-radius: 15px;
+    width: 110px;
+    height: 30px;
+}
+.banner>.b2 {
+    background-color: rgb(121, 139, 139);
+    color: rgb(10, 53, 53);
+    letter-spacing: 1px;
+    font-size: 15px;
+    border-radius: 15px;
+    width: 110px;
+    height: 30px;
+    margin-left: 10px;
+}
+
+.b1:hover {
+    background-color: blueviolet;
+    color: bisque;
+}
+
+.b2:hover {
+    background-color: rgb(224, 233, 182);
+    color: black;
+}
+.welcome {
+    text-align: center;
+    width: 50%;
+    color: rgb(10, 53, 53);
+    padding-left: 25%;
+    padding-right: 25%;
+}
+
+.sechead {
+    padding: 10px 30px;
+    padding-bottom: 0%;
+    font-size: 80px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-stretch: inherit;
+    word-spacing: 3px;
+    letter-spacing: 1px;
+}
+
+.secdesc {
+    display: flex;
+    padding-bottom: 50px;
+}
+
+.secdesc>pre {
+    padding-left: 20px;
+    width: 50%;
+}
+
+.sectext {
+    margin: 0px;
+    word-spacing: 5px;
+    line-height: 30px;
+    letter-spacing: 2px;
+    font-size: 20px;
+    text-align: start;
+    font-weight: bold;
+    width: 50%;
+}
+
+.secimag {
+    height:200px;
+    width:75%;
+    padding-left: 100px;
+}
+
+.cards {
+    padding-top: 30px;
+    display: flex;
+    padding-bottom: 15px;
+}
+
+.card {
+    padding: 10px;
+}
+
+.card p{
+    line-height:25px;
+}
+
+.card button{
+    background-color: rgb(10, 53, 53);
+    color: white;
+    border-radius: 5px;
+    height: 30px;
+    width: 100px;
+    cursor: pointer;
+}
+
+.card button:hover{
+    background-color: bisque;
+    color: rgb(10, 53, 53);
+}
+
+.cards img {
+    height: 60px;
+    width: 60px;
+}
+
+.project {
+    height: 800px;
+    text-align: center;
+    margin-bottom: 90px;
+}
+
+.projhead{
+    font-size: 80px;
+    letter-spacing: 1px;
+    color: rgb(10, 53, 53);
+}
+
+.projs {
+    display: flex;
+    justify-content: space-between;
+    height: 650px;
+    color: black;
+}
+
+.projs h4 {
+    font-size: 30px;
+    margin: 10px 0px 5px 0px;
+}
+
+.projs p{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.projs button {
+    height: 30px;
+    width: 200px;
+    letter-spacing: 1px;
+    border-radius: 10px;
+    background-color: rgb(10, 53, 53);
+    color: white;
+    cursor: pointer;
+}
+
+.projs button:hover{
+    background-color: bisque;
+    color: rgb(10, 53, 53);
+}
+
+.pro1 {
+    background-image: url(https://images.pexels.com/photos/4348403/pexels-photo-4348403.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    color: black;
+    background-repeat: no-repeat;
+}
+
+.pro2 {
+    background-image: url(https://images.pexels.com/photos/574664/pexels-photo-574664.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+    color: rgb(0, 0, 0);
+    background-repeat: no-repeat;
+}
+
+.pro3 {
+    background-image: url(https://images.pexels.com/photos/5582870/pexels-photo-5582870.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+    color: rgb(0, 0, 0);
+    background-repeat: no-repeat;
+}
+
+.pro4 {
+    background-image: url(https://images.pexels.com/photos/4144097/pexels-photo-4144097.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    color: rgb(0, 0, 0);
+    background-repeat: no-repeat;
+}
+
+.pspace {
+    height: 450px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.pricehead{
+    font-size: 80px;
+    letter-spacing: 1px;
+}
+
+.pricing{
+    text-align: center;
+    color: rgb(10, 53, 53);
+}
+
+.pricetable {
+    display: flex;
+    justify-content: center;
+    font-size: 150%;
+}
+
+.pricecontainer {
+    padding: 20px;
+    border-right: 1px solid black;
+}
+
+.pricecontainer h5{
+    font-weight: bolder;
+    letter-spacing: 1px;
+}
+
+.pricecontainer button{
+    height: 30px;
+    width: 100px;
+    background-color: teal;
+    font-size: 20px;
+    font-weight: bolder;
+    color: white;
+    cursor: pointer;
+}
+
+.pricecontainer button:hover{
+    background-color: bisque;
+    color: rgb(10, 53, 53);
+}
+
+.video {
+    text-align: center;
+    height: 800px;
+    background-color: rgb(10, 53, 53);
+}
+
+.videohead {
+    padding-top: 50px;
+    color: bisque;
+    font-size: 80px;
+}
+
+.videos {
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.team {
+    margin-top: 10px;
+    text-align: center;
+    color: rgb(10, 53, 53);
+}
+
+.teamhead{
+    font-size: 80px;
+    letter-spacing: 2px;
+}
+
+.profiles {
+    display: flex;
+    justify-content: center;
+}
+
+.p1 {
+    padding: 1vh 1vw 0px 2vw;
+    text-align: center;
+}
+
+.p {
+    border-radius: 50%;
+    opacity: 1;
+    display: block;
+    transition: 0.5s ease;
+    backface-visibility: hidden;
+    position: relative;
+    height: 100px;
+    width: 100px;
+}
+
+.picon {
+    top: 50%;
+    left: 50%;
+    display: flex;
+    transform: translate(-150%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+    transition: 0.5s ease;
+    text-align: center;
+    opacity: 0;
+    position: absolute;
+}
+
+.pr:hover .p{
+    opacity: 0.4;
+}
+
+.pr:hover .picon{
+    opacity: 1;
+}
+
+.pr {
+    position: relative;
+    padding: 20px 20px px 20px;
+}
+
+.prbd h5{
+    font-size: 20px;
+}
+
+.gallery {
+    text-align: center;
+    background-color: lightgrey;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+.ghead {
+    padding: 30px;
+    font-size: 80px;
+    letter-spacing: 2px;
+    margin-bottom: 0%;
+    color: rgb(10, 53, 53);
+}
+
+.gallery img {
+    vertical-align: middle;
+}
+
+/* Hide the images by default */
+.mySlides {
+    display: none;
+  }
+  
+  /* Add a pointer when hovering over the thumbnail images */
+  .cursor {
+    cursor: pointer;
+  }
+  
+  /* Next & previous buttons */
+  .prev,.next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+  .prev{
+      left: 0;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover,
+  .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+
+  
+  /* Container for image text */
+  .caption-container {
+    text-align: center;
+    background-color: #222;
+    padding: 2px 16px;
+    color: white;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Six columns side by side */
+  .column {
+    float: left;
+    width: 16.66%;
+  }
+  
+  /* Add a transparency effect for thumnbail images */
+  .demo {
+    opacity: 0.6;
+  }
+  
+  .active,
+  .demo:hover {
+    opacity: 1;
+  }
+
+
+
+.containers {
+    position: relative;
+    height: 810px;
+  }
+
+.newsletter {
+    height: 300px;
+    text-align: center;
+    background-image: url(./Planet9_3840x2160.jpg);
+}
+
+.signup {
+    font-weight: bolder;
+    font-size: 30px;
+    letter-spacing: 2px;
+    color: lightgrey;
+    padding: 90px 30px 10px 30px;
+}
+
+.sign{
+    display: flex;
+    justify-content: center;
+}
+
+.mail {
+    margin: 10px;
+    width: 500px;
+    padding: 5px 20px;
+    border-radius: 10px;
+}
+
+.subscribe {
+    border-radius: 7px;
+    color: rgb(255, 255, 255);
+    width: 100px;
+    margin: 10px;
+    height: 30px;
+    cursor: pointer;
+    background-color: blueviolet;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+
+.subscribe:hover{
+    background-color: bisque;
+    color: rgb(10, 53, 53);
+    font-weight: bold;
+    transform: scale(1.1);
+    transition-duration: 0.5s;
+}
+
+.blog {
+    text-align: center;
+    color: rgb(10, 53, 53);
+}
+
+.bloghead {
+    padding: 0px 20px;
+    font-size: 80px;
+    color: rgb(10, 53, 53);
+    letter-spacing: 2px;
+}
+
+.blogs {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.bl{
+    width: 20vw;
+}
+
+.blg{
+    width: 350px;
+    padding: 0px 30px;
+}
+
+.blg h2{
+    font-weight: bolder;
+    word-spacing: 3px;
+}
+
+.blg button{
+    background-color: rgb(10, 53, 53);
+    color: white;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.blg button:hover{
+    background-color: bisque;
+    color: rgb(10, 53, 53);
+}
+
+.contacts {
+    margin-top: 50px;
+    padding: 10px;
+    display: flex;
+    height: 70vh;
+}
+
+.map {
+    width: 50vw;
+    overflow: hidden;
+    background-color: lightgrey;
+    margin: 0px;
+}
+
+.mapouter {
+    position:relative;
+    text-align:right;
+}
+
+.gmap_canvas {
+    overflow:hidden;
+    background:none!important;
+    width:100%;
+}
+
+.gmap_iframe {
+    width:100%!important;
+    height:100vh!important;
+}
+
+.contact {
+    width: 50vw;
+    padding: 0%;
+    background-color: rgb(10, 53, 53);
+    color: white;
+}
+
+.contact>h1 {
+    padding: 0px 20px; 
+    font-size: 50px;
+    letter-spacing: 2px;
+}
+
+.namel,.emaill,.subjectl,.messagel {
+    padding: 10px 20px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    font-size: 1em;
+    letter-spacing: 1px;
+}
+
+.name,.email,.subject,.message {
+    margin: 0px 20px;
+    width: 300px;
+    height: 30px;
+    padding-left: 10px;
+    border-radius: 10px;
+}
+
+.name:hover,.email:hover,.subject:hover,.message:hover{
+    transform: scale(1.1);
+    transition-duration: 0.5s;
+}
+
+.cont {
+    margin: 50px 20px;
+    height: 7%;
+    border-radius: 8px;
+    background-color:bisque;
+    color: rgb(10, 53, 53);
+    cursor: pointer;
+    letter-spacing: 1.5px;
+    font-weight: bold;
+    width: 25vw;
+}
+
+.cont:hover {
+    background-color: rgb(18, 66, 88);
+    color: bisque;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    color: rgb(10, 53, 53);
+}
+
+.icon {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    padding: 2px;
+}
+
+.contactus>p {
+    font-size: 12px;
+}
